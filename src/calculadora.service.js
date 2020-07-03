@@ -36,7 +36,7 @@ function CalculadoraService() {
 		}
 		// primeiro digito for '.', concatena antes do ponto
 		if (numConcat === '.' && numAtual === '') {
-			return numAtual;
+			return '0.';
 		}
 		// caso '.' digitado e já contenha ponto, apenas retornar
 		if (numConcat === '.' && numAtual.indexOf('.') > -1) {
